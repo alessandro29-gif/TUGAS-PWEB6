@@ -3,10 +3,10 @@
 
 Link Website: https://registrasimatakuliah5025251095.netlify.app
 
-Pendahuluan
+# Pendahuluan
 Tugas ini bertujuan membangun sistem Registrasi Mata Kuliah interaktif yang menerapkan struktur HTML, penataan layout dan tampilan dengan CSS, serta manipulasi DOM dan logika interaktif menggunakan JavaScript. Terdapat bagian form registrasi untuk mengisi data mahasiswa serta pilihan mata kuliah menggunakan elemen dropdown <select>, di mana sistem melakukan validasi input dan menampilkan pesan danger berwarna merah jika terdapat kesalahan atau data yang belum lengkap. Terdapat pula bagian tabel atau daftar mata kuliah yang telah diregistrasikan/dipilih, lengkap dengan fitur pencarian, tombol edit dan hapus, dan pagination untuk mengatur jumlah tampilan data per halaman. 
 
-Struktur
+# Struktur
 index.html sebagai struktur utama halaman
 style.css sebagai pengatur keseluruhan layouting dan tampilan visual
 app.js sebagai pengatur data, validasi form, penambahan, pengubahan, penghapusan, pencarian, serta fungsi dropdown dan pagination
