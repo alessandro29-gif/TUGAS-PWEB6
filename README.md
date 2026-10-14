@@ -20,10 +20,10 @@ Terdapat elemen header yang memuat judul portal registrasi mata kuliah, navigasi
 
 # Java Script
 Data registrasi disimpan dalam array objek di memori browser. Fungsi render() bertugas untuk menampilkan baris data pada tabel berdasarkan hasil pencarian dan halaman aktif, serta memperbarui badge jumlah data dan tombol pagination. Beberapa fungsi utama meliputi:
-- Form Submit & Validasi: Memproses input form, memastikan pilihan dropdown terisi dengan benar dan data sesuai ketentuan.
-- Edit dan Delete: Tombol Edit mengisi kembali form dengan data yang dipilih (termasuk pilihan dropdown) untuk diubah, sedangkan tombol Delete menghapus data dari daftar dengan konfirmasi.
-- Search: Fitur pencarian real-time untuk memfilter data berdasarkan kata kunci yang mengetik pengguna.
-- Dropdown & Pagination: Mengatur fungsionalitas pilihan dropdown mata kuliah dan membagi tampilan data per halaman (pagination).
+* Form Submit & Validasi: Memproses input form, memastikan pilihan dropdown terisi dengan benar dan data sesuai ketentuan.
+* Edit dan Delete: Tombol Edit mengisi kembali form dengan data yang dipilih (termasuk pilihan dropdown) untuk diubah, sedangkan tombol Delete menghapus data dari daftar dengan konfirmasi.
+* Search: Fitur pencarian real-time untuk memfilter data berdasarkan kata kunci yang mengetik pengguna.
+* Dropdown & Pagination: Mengatur fungsionalitas pilihan dropdown mata kuliah dan membagi tampilan data per halaman (pagination).
 
 # Cuplikan Kode JavaScript (Validasi Dropdown & Submit):
 <img width="626" height="559" alt="image" src="https://github.com/user-attachments/assets/693572e3-1d68-44e4-879d-ef7a64b1dbc0" />
@@ -31,11 +31,11 @@ Data registrasi disimpan dalam array objek di memori browser. Fungsi render() be
 
 # CSS
 Bagian CSS pada file style.css dirancang untuk mengatur tampilan visual secara konsisten:
-- Reset & CSS Variables: Menghilangkan margin/padding bawaan browser serta mendefinisikan variabel warna global (seperti --primary, --danger, --border, dan --radius) agar konsisten di seluruh komponen.
-- Navbar: Menggunakan Flexbox (display: flex) dengan justify-content: space-between untuk mengatur tata letak navigasi atas agar rapi dan responsif.
-- Layout Utama (CSS Grid): Menggunakan Grid dua kolom proporsional (kolom form di kiri dan tabel data di kanan) dengan max-width agar posisinya berada di tengah layar.
-- Card & Form Component: Setiap section dibungkus dalam wadah bergaya card (dengan padding, border-radius, dan box-shadow). Elemen input dan dropdown dilengkapi pseudo-class :focus serta styling kelas error berwarna merah untuk validasi.
-- Table & Actions: Mengatur perapian border tabel, tata letak tombol aksi (edit/delete), serta pagination menggunakan Flexbox agar selaras.
+* Reset & CSS Variables: Menghilangkan margin/padding bawaan browser serta mendefinisikan variabel warna global (seperti --primary, --danger, --border, dan --radius) agar konsisten di seluruh komponen.
+* Navbar: Menggunakan Flexbox (display: flex) dengan justify-content: space-between untuk mengatur tata letak navigasi atas agar rapi dan responsif.
+* Layout Utama (CSS Grid): Menggunakan Grid dua kolom proporsional (kolom form di kiri dan tabel data di kanan) dengan max-width agar posisinya berada di tengah layar.
+* Card & Form Component: Setiap section dibungkus dalam wadah bergaya card (dengan padding, border-radius, dan box-shadow). Elemen input dan dropdown dilengkapi pseudo-class :focus serta styling kelas error berwarna merah untuk validasi.
+* Table & Actions: Mengatur perapian border tabel, tata letak tombol aksi (edit/delete), serta pagination menggunakan Flexbox agar selaras.
 
 # Cuplikan Kode CSS:
 <img width="563" height="575" alt="image" src="https://github.com/user-attachments/assets/339dad41-cee8-4c33-84a1-5b15dfe6d697" />
